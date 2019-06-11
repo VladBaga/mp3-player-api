@@ -52,7 +52,7 @@ public class Mp3FileService {
 
         if (request.getName() != null) {
             mp3Files = mp3FileRepository.findByName(request.getName(), pageable);
-        }else{
+        }else {
             mp3Files = mp3FileRepository.findAll(pageable);
         }
 

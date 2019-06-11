@@ -1,4 +1,4 @@
-package org.fasttrackit.mp3playerapi.configuration;
+/*package org.fasttrackit.mp3playerapi.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -13,4 +13,4 @@ public class AccessControlAllowOrigin implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**");
     }
-}
+}*/
